@@ -8,4 +8,17 @@
     </ul>
 </nav>
 <br>
+<section class="hero is-dark">
+    <div class="hero-body">
+        <div class="container">
+            <h1 class="title">
+                Control de Asistencias
+            </h1>
+            <h2 class="subtitle">
+                Escolares
+            </h2>
+        </div>
+    </div>
+</section>
+<br>
 <!-- Fin de los Encabezados de la Página -->

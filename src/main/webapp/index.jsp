@@ -1,9 +1,3 @@
-<%-- 
-    Document   : index
-    Created on : 15/11/2021, 08:14:21 PM
-    Author     : Sabino
---%>
-
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -14,15 +8,13 @@
     </head>
     
     <body>
-        <%@include file='header.jsp' %>
+        <%@include file='views/header.jsp' %>
         
-        <h1>Hello World! JSP</h1>
-        <h2>Saludos Comunidad Java</h2>
-        <h3>UACAM FI ISC</h3>
-        <p>Primer Ejercicio, de JSP inclyendo un CSS para diseño de nuestras aplicaciones</p>
+        <div class="container">
+            <%@include file='routing.jsp' %>
+        </div>
         <br>
-        <p>Primer Ejercicio, de JSP inclyendo un CSS para diseño de nuestras aplicaciones</p>
         
-        <%@include file='footer.jsp' %>
+        <%@include file='views/footer.jsp' %>
     </body>
 </html>
